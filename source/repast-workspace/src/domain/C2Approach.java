@@ -1,0 +1,9 @@
+package domain;
+
+//List all C2 Approaches defined by NATO Report. The order is relevant during execution.
+
+public enum C2Approach {
+	 DECONFLICTED, COORDINATED, COLLABORATIVE, EDGE, CONFLICTED
+	//COORDINATED, EDGE, DECONFLICTED, CONFLICTED, COLLABORATIVE
+	//EDGE, COLLABORATIVE, COORDINATED, DECONFLICTED, CONFLICTED  <<<ORIGINAL>>>
+}

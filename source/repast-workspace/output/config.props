@@ -1,0 +1,9 @@
+model.archive = /Users/junier/git/PIBIC-C2/output/complete_model.jar
+batch.params.file = scenario.rs/batch_params.xml
+ssh.key_dir = /Users/junier/.ssh
+poll.frequency = 60.0
+model.output = /Users/junier/git/PIBIC-C2/output
+
+vm.arguments = 
+local.0.instances = 2
+local.0.working_directory = /var/folders/s7/vkf12sd546z39fk7c3b6bzv80000gn/T/

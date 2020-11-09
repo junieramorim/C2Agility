@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parameters>
+				<parameter name="randomSeed" displayName="Default Random Seed" type="int" 
+						defaultValue="__NULL__"
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="nTasks" displayName="#Tasks" type="int" 
+						defaultValue="25" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="spaceSize" displayName="Space Size" type="int" 
+						defaultValue="50" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="hasDropDrones" displayName="Drop Drones (for random scenarios)" type="boolean" 
+						defaultValue="true" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$BooleanConverter"
+									
+		/>
+				<parameter name="threshold" displayName="Threshold (0%-100%)" type="int" 
+						defaultValue="20" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="nTasksPerRound" displayName="#Drone's Tasks Allocation Per Round" type="int" 
+						defaultValue="1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="dropDronesPeriod" displayName="Drop Drone's Period" type="int" 
+						defaultValue="250" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="agilityMethod" displayName="Agility Method (#1 - No C2 Agility;  #2 - Only C2 Maneuver Agility;   #3 - C2 Agility)" type="java.lang.String" 
+						defaultValue="#3" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									values="#1 #2 #3"						
+		/>
+		
+				<parameter name="sensorChangePeriod" displayName="Sensor's Change Period" type="int" 
+						defaultValue="100" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="initialC2Approach" displayName="Initial C2 Approach" type="java.lang.String" 
+						defaultValue="EDGE" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									values="CONFLICTED DECONFLICTED COORDINATED COLLABORATIVE EDGE "
+						
+		/>
+				
+				<parameter name="nDrones" displayName="#Drones" type="int" 
+						defaultValue="5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="lightScreen" displayName="Light Screen" type="boolean" 
+						defaultValue="false" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$BooleanConverter"
+									
+		/>
+				<parameter name="info1" displayName="Reduced Informartion (Type 1)" type="boolean" 
+						defaultValue="false" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$BooleanConverter"
+									
+		/>
+				<parameter name="nCollaborativeMasters" displayName="Numebr of Collaborative Masters" type="int" 
+						defaultValue="2" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="repetitions" displayName="Repetitions per scenario (Choose scenario and put an interval here 1 - n)" type="int" 
+						defaultValue="1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="simulationTime" displayName="Simulation Time" type="int" 
+						defaultValue="1000" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="hasSensorChanges" displayName="Sensors degradation (in dynamic scenarios)" type="boolean" 
+						defaultValue="true" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$BooleanConverter"
+									
+		/>
+				<parameter name="showAllocations" displayName="Show Allocations" type="boolean" 
+						defaultValue="false" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$BooleanConverter"
+									
+		/>
+				<parameter name="aleatory" displayName="Scenarios creation method" type="String" 
+						defaultValue="FILE" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									values="FILE RANDOM"
+									
+		/>
+				
+				<parameter name="fileName" displayName="Input file name" type="java.lang.String" 
+						defaultValue="input" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"									
+						
+		/>
+				<parameter name="appendFile" displayName="Append output data on file" type="boolean" 
+						defaultValue="true" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$BooleanConverter"
+									
+		/>
+				<parameter name="scenario" displayName="Scenario treament applied (Context Actions) - Use batch for Resilience" type="int" 
+						defaultValue="1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"									
+						
+		/>
+				<parameter name="path" displayName="Reference path to output files" type="String" 
+						defaultValue="/Users/junier/git/PIBIC-C2/Results/" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"									
+						
+		/>	
+		
+		</parameters>
+
+
