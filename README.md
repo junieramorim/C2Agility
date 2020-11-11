@@ -21,4 +21,12 @@ Results were processed using R scripts.
 
 
 
+=============================
+
+
+
+
+The aiming of this project is to provide all material used to execute the empirical evaluation presented by the paper.
+
+More detailed instructions can be found in WIKI session (click Wiki tab above).
 
