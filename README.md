@@ -2,7 +2,7 @@
 
 1. Environment
 
-The framework used to implement the simulation:
+The framework (RePast Simphony) used to implement the simulation:
 
 https://repast.github.io
 
