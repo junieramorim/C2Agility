@@ -1,0 +1,160 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.codehaus.groovy
+Bundle-SymbolicName: org.codehaus.groovy
+Built-By: bamboo
+Require-Bundle: org.eclipse.core.runtime,org.apache.ant;resolution:=op
+ tional,org.junit;resolution:=optional
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:git://github.com/gitroot/groovy/groo
+ vy-eclipse;path="base/org.codehaus.groovy24";commitId=d39bd78053c912a
+ 259129f97440d93175a9928be
+Bundle-Vendor: Pivotal Software, Inc.
+Export-Package: groovy.beans;version="2.4.17",groovy.grape;version="2.
+ 4.17",groovy.inspect;version="2.4.17",groovy.inspect.swingui;version=
+ "2.4.17",groovy.io;version="2.4.17",groovy.jmx.builder;version="2.4.1
+ 7",groovy.json;version="2.4.17",groovy.json.internal;version="2.4.17"
+ ,groovy.lang;version="2.4.17",groovy.mock.interceptor;version="2.4.17
+ ",groovy.model;version="2.4.17",groovy.security;version="2.4.17",groo
+ vy.servlet;version="2.4.17",groovy.sql;version="2.4.17",groovy.swing;
+ version="2.4.17",groovy.swing.binding;version="2.4.17",groovy.swing.f
+ actory;version="2.4.17",groovy.swing.impl;version="2.4.17",groovy.tes
+ t;version="2.4.17",groovy.text;version="2.4.17",groovy.text.markup;ve
+ rsion="2.4.17",groovy.time;version="2.4.17",groovy.transform;version=
+ "2.4.17",groovy.transform.builder;version="2.4.17",groovy.transform.s
+ tc;version="2.4.17",groovy.ui;version="2.4.17",groovy.ui.icons;versio
+ n="2.4.17",groovy.ui.text;version="2.4.17",groovy.ui.view;version="2.
+ 4.17",groovy.util;version="2.4.17",groovy.util.logging;version="2.4.1
+ 7",groovy.util.slurpersupport;version="2.4.17",groovy.xml;version="2.
+ 4.17",groovy.xml.dom;version="2.4.17",groovy.xml.streamingmarkupsuppo
+ rt;version="2.4.17",groovyjarjarantlr;x-friends:="org.codehaus.groovy
+ .eclipse.refactoring",org.apache.groovy.io;version="2.4.17",org.apach
+ e.groovy.util;version="2.4.17",org.codehaus.groovy;version="2.4.17",o
+ rg.codehaus.groovy.ant;version="2.4.17",org.codehaus.groovy.antlr;ver
+ sion="2.4.17",org.codehaus.groovy.antlr.java;version="2.4.17",org.cod
+ ehaus.groovy.antlr.parser;version="2.4.17",org.codehaus.groovy.antlr.
+ treewalker;version="2.4.17",org.codehaus.groovy.ast;version="2.4.17",
+ org.codehaus.groovy.ast.builder;version="2.4.17",org.codehaus.groovy.
+ ast.expr;version="2.4.17",org.codehaus.groovy.ast.stmt;version="2.4.1
+ 7",org.codehaus.groovy.ast.tools;version="2.4.17",org.codehaus.groovy
+ .binding;version="2.4.17",org.codehaus.groovy.bsf;version="2.4.17",or
+ g.codehaus.groovy.classgen;version="2.4.17",org.codehaus.groovy.class
+ gen.asm;version="2.4.17",org.codehaus.groovy.classgen.asm.indy;versio
+ n="2.4.17",org.codehaus.groovy.classgen.asm.sc;version="2.4.17",org.c
+ odehaus.groovy.cli;version="2.4.17",org.codehaus.groovy.control;versi
+ on="2.4.17",org.codehaus.groovy.control.customizers;version="2.4.17",
+ org.codehaus.groovy.control.customizers.builder;version="2.4.17",org.
+ codehaus.groovy.control.io;version="2.4.17",org.codehaus.groovy.contr
+ ol.messages;version="2.4.17",org.codehaus.groovy.eclipse,org.codehaus
+ .groovy.groovydoc;version="2.4.17",org.codehaus.groovy.jsr223;version
+ ="2.4.17",org.codehaus.groovy.plugin;version="2.4.17",org.codehaus.gr
+ oovy.reflection;version="2.4.17",org.codehaus.groovy.reflection.andro
+ id;version="2.4.17",org.codehaus.groovy.reflection.stdclasses;version
+ ="2.4.17",org.codehaus.groovy.reflection.v7;version="2.4.17",org.code
+ haus.groovy.runtime;version="2.4.17",org.codehaus.groovy.runtime.call
+ site;version="2.4.17",org.codehaus.groovy.runtime.dgmimpl;version="2.
+ 4.17",org.codehaus.groovy.runtime.dgmimpl.arrays;version="2.4.17",org
+ .codehaus.groovy.runtime.m12n;version="2.4.17",org.codehaus.groovy.ru
+ ntime.memoize;version="2.4.17",org.codehaus.groovy.runtime.metaclass;
+ version="2.4.17",org.codehaus.groovy.runtime.powerassert;version="2.4
+ .17",org.codehaus.groovy.runtime.typehandling;version="2.4.17",org.co
+ dehaus.groovy.runtime.wrappers;version="2.4.17",org.codehaus.groovy.s
+ yntax;version="2.4.17",org.codehaus.groovy.testng;version="2.4.17",or
+ g.codehaus.groovy.tools;version="2.4.17",org.codehaus.groovy.tools.as
+ t;version="2.4.17",org.codehaus.groovy.tools.groovydoc;version="2.4.1
+ 7",org.codehaus.groovy.tools.groovydoc.gstringTemplates;version="2.4.
+ 17",org.codehaus.groovy.tools.groovydoc.gstringTemplates.classLevel;v
+ ersion="2.4.17",org.codehaus.groovy.tools.groovydoc.gstringTemplates.
+ packageLevel;version="2.4.17",org.codehaus.groovy.tools.groovydoc.gst
+ ringTemplates.topLevel;version="2.4.17",org.codehaus.groovy.tools.gse
+ ;version="2.4.17",org.codehaus.groovy.tools.javac;version="2.4.17",or
+ g.codehaus.groovy.tools.shell;version="2.4.17",org.codehaus.groovy.to
+ ols.shell.commands;version="2.4.17",org.codehaus.groovy.tools.shell.c
+ ompletion;version="2.4.17",org.codehaus.groovy.tools.shell.util;versi
+ on="2.4.17",org.codehaus.groovy.tools.xml;version="2.4.17",org.codeha
+ us.groovy.transform;version="2.4.17",org.codehaus.groovy.transform.sc
+ ;version="2.4.17",org.codehaus.groovy.transform.sc.transformers;versi
+ on="2.4.17",org.codehaus.groovy.transform.stc;version="2.4.17",org.co
+ dehaus.groovy.transform.tailrec;version="2.4.17",org.codehaus.groovy.
+ transform.trait;version="2.4.17",org.codehaus.groovy.util;version="2.
+ 4.17",org.codehaus.groovy.vmplugin;version="2.4.17",org.codehaus.groo
+ vy.vmplugin.v5;version="2.4.17",org.codehaus.groovy.vmplugin.v6;versi
+ on="2.4.17",org.codehaus.groovy.vmplugin.v7;version="2.4.17",org.code
+ haus.groovy.vmplugin.v8;version="2.4.17"
+Bundle-Name: Apache Groovy
+Bundle-Version: 2.4.17.v201906292136-e1906-RELEASE
+Bundle-ClassPath: eclipse-trace.jar,groovy-eclipse.jar,lib/ivy-2.4.0.j
+ ar,lib/groovy-all-2.4.17.jar
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_212
+Eclipse-BundleShape: dir
+
+Name: lib/groovy-all-2.4.17.jar
+SHA-256-Digest: GC+hC/MHFbsZFVxetKvOQkjVLlmtEkUulUyvnxvZxnM=
+
+Name: groovy-eclipse.jar
+SHA-256-Digest: UecT4DtrrJcWsq+lJlrn0DzT/dgZs9viemovyLIbwnE=
+
+Name: about.html
+SHA-256-Digest: fruDrYD7VC5Dl0bblVS29mdzfIF03M89TFo0ffYIwOE=
+
+Name: plugin_dsld_support/dsld/beans_transforms.dsld
+SHA-256-Digest: YzAAyPvavEFCH2v/7iXypUdcY/uqyGbUXYbCBAVFxIU=
+
+Name: plugin_dsld_support/readme.txt
+SHA-256-Digest: nFFyosMdb/QzvH0/T3QxWOeOuGQLKTO0z9347f8A/vI=
+
+Name: plugin_dsld_support/dsld/logging_transforms.dsld
+SHA-256-Digest: 4npqr2Dd0uJ+gcT7do3+OxBrKa+D3qu+6UKBXLbCO+o=
+
+Name: lib/groovy-all-2.4.17-sources.jar
+SHA-256-Digest: ojNnIg2KGDNKfNDMS3lKh8pe3s6lcUE30zh9HzU+4LE=
+
+Name: plugin_dsld_support/dsld/swing_builder.dsld
+SHA-256-Digest: W0Cj0eDdTVk0MC+KKTcvOsI8ScWBd+Mlp56oDhP7EIo=
+
+Name: META-INF/maven/org.codehaus.groovy.eclipse/org.codehaus.groovy/p
+ om.xml
+SHA-256-Digest: HMPm33Zu61Uw9nBzTgXWQa0rtHmM3krr5DSeq/QI3bM=
+
+Name: about_files/asl2-license.txt
+SHA-256-Digest: 4OrWFMOM7pA2RivJoNuhj2l4EDMyuCx7nGHzSjNgrUY=
+
+Name: META-INF/eclipse.inf
+SHA-256-Digest: kfSeGRPm/vZbeBXwEhTfd1tEaEIGB014JBpSGDpYVjM=
+
+Name: plugin_dsld_support/dsld/script_config.dsld
+SHA-256-Digest: TwdXypN0AWq3UsmjRFWaknILEE3tJH8gNi1VNckOv9g=
+
+Name: plugin_dsld_support/dsld/basic_transforms.dsld
+SHA-256-Digest: eduR97oOLcNk3l4wwbeaeMpFFc6jUoetxTiHqvPyjgE=
+
+Name: about_files/jline2-license.txt
+SHA-256-Digest: FKCJ4PS/VDsz3g4Z4YQvGtZ3kkF2K7vOO6MsaLK+Znc=
+
+Name: lib/ivy-2.4.0-javadoc.jar
+SHA-256-Digest: q2GBQ0N+VOPXOHYccrE7VTfW0ot56A9hBbTTKGUBZto=
+
+Name: plugin_dsld_support/dsld/meta_script.dsld
+SHA-256-Digest: sFUOiTZqRPahlUqensZ7sk0Q7Qqr74A2aoFLoWythX0=
+
+Name: VERSION
+SHA-256-Digest: aXNDSDAAKjstjVriZHsQzEYDJUzehIS9YhzZO7PkzY4=
+
+Name: lib/groovy-all-2.4.17-javadoc.jar
+SHA-256-Digest: 7JwBKAjtbcCbd+5HpzTuMc4l7NSrVZFHDUd0wu3OPOY=
+
+Name: lib/ivy-2.4.0.jar
+SHA-256-Digest: zoHLI0QGsJO1uN6fb1sqUO0IJNaiNYkTU+jT6UGlOXA=
+
+Name: META-INF/maven/org.codehaus.groovy.eclipse/org.codehaus.groovy/p
+ om.properties
+SHA-256-Digest: /WheX+zWMWHKreBgEUYXXS94NJ0/wI8AGyxEEpuTccs=
+
+Name: lib/ivy-2.4.0-sources.jar
+SHA-256-Digest: lu+5lJ6JOnNJph8Wpyzm4qETl58g2Ne4BhDS5mtk7vU=
+
+Name: eclipse-trace.jar
+SHA-256-Digest: rotBpVQ6+EyV9Z2Pt6XOMuloWM1HgjZxcZf59FEUSik=
+

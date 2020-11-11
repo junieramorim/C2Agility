@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast essentials
+Bundle-SymbolicName: repast.simphony.essentials
+Bundle-Version: 2.7.0
+Bundle-Localization: plugin
+Require-Bundle: repast.simphony.integration,
+ repast.simphony.sql,
+ repast.simphony.core,
+ repast.simphony.runtime,
+ org.junit
+Export-Package: repast.simphony.essentials
+Bundle-ClassPath: .
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Argonne National Laboratory

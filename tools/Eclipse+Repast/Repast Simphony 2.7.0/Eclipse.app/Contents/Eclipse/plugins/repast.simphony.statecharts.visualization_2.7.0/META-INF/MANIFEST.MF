@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast statecharts visualization
+Bundle-SymbolicName: repast.simphony.statecharts.visualization
+Bundle-Version: 2.7.0
+Bundle-ClassPath: runtime.jar
+Require-Bundle: org.w3c.dom.svg,
+ repast.simphony.statecharts,
+ org.junit,
+ org.eclipse.emf.ecore.xmi,
+ repast.simphony.gui,
+ saf.core.ui,
+ org.w3c.dom.smil,
+ org.w3c.css.sac,
+ libs.ext
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Argonne National Laboratory

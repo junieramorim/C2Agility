@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast ui
+Bundle-SymbolicName: repast.simphony.data.ui
+Bundle-Version: 2.7.0
+Require-Bundle: saf.core.ui,
+ repast.simphony.data,
+ repast.simphony.gui,
+ repast.simphony.plugin.util,
+ repast.simphony.core,
+ repast.simphony.runtime,
+ repast.simphony.scenario,
+ repast.simphony.eclipse;bundle-version="2.7.0"
+Export-Package: repast.simphony.data.analysis,
+ repast.simphony.data2.gui,
+ repast.simphony.data2.wizard
+Bundle-ClassPath: .
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Argonne National Laboratory

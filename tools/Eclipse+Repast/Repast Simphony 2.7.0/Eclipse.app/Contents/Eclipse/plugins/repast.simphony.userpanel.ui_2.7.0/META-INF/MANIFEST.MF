@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast userpanel
+Bundle-SymbolicName: repast.simphony.userpanel.ui
+Bundle-Version: 2.7.0
+Require-Bundle: repast.simphony.gui,
+ saf.core.ui,
+ repast.simphony.plugin.util,
+ repast.simphony.runtime,
+ repast.simphony.scenario,
+ repast.simphony.core
+Export-Package: 
+ repast.simphony.userpanel.ui
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Argonne National Laboratory

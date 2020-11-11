@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast dataloader ui
+Bundle-SymbolicName: repast.simphony.dataLoader.ui
+Bundle-Version: 2.7.0
+Export-Package: repast.simphony.dataLoader.ui,
+ repast.simphony.dataLoader.ui.wizard,
+ repast.simphony.dataLoader.ui.wizard.builder
+Require-Bundle: repast.simphony.dataLoader,
+ repast.simphony.gui,
+ saf.core.ui,
+ repast.simphony.plugin.util,
+ repast.simphony.runtime,
+ repast.simphony.scenario,
+ repast.simphony.core,
+ repast.simphony.freezedry
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Argonne National Laboratory

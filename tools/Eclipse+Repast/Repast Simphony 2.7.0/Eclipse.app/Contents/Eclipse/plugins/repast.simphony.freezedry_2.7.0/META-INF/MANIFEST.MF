@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast freezedry
+Bundle-SymbolicName: repast.simphony.freezedry
+Bundle-Version: 2.7.0
+Export-Package: repast.simphony.freezedry.engine,
+ repast.simphony.freezedry.gui,
+ repast.simphony.freezedry.wizard
+Require-Bundle: repast.simphony.plugin.util,
+ repast.simphony.scenario,
+ repast.simphony.gui,
+ repast.simphony.core,
+ saf.core.ui,
+ repast.simphony.runtime
+Bundle-Vendor: Argonne National Laboratory
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8

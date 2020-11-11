@@ -1,0 +1,74 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: iYrPJ8EU24RK3WyCcw8FxNFkOEW46
+ VQLAGKzqgmzw68=
+SHA-256-Digest-Manifest: 1ArCRSYXHi5H6aydeTjpe1Il5i8RPhenK7Kk1kUEXLw=
+Created-By: 1.8.0_212 (AdoptOpenJDK)
+
+Name: lib/groovy-all-2.4.17.jar
+SHA-256-Digest: UnqdF5u2fh3iO1TlRZ/WDt0MgSpK1P5cz+PKsw611iQ=
+
+Name: groovy-eclipse.jar
+SHA-256-Digest: MFV+Gyb1X84DIgSNpu/qWr2bRY6Z2s8OnQCOMk1YOwY=
+
+Name: about.html
+SHA-256-Digest: sIlLjdxQ3Iea3CxGjTZETJ1NxYl3QgREg36ww5EBeoI=
+
+Name: plugin_dsld_support/dsld/beans_transforms.dsld
+SHA-256-Digest: XkuwVyT69z/Op/ztV9INCnOs8Nk2WDS4FkuyscELfw0=
+
+Name: plugin_dsld_support/readme.txt
+SHA-256-Digest: fprPY/frLRil4qqY1EO03VmDKuBF/5TGPj43Ra+5BYQ=
+
+Name: plugin_dsld_support/dsld/logging_transforms.dsld
+SHA-256-Digest: nCXNGVfZxtwuRiZalynHa4t9s/RtWTEbtKua95CC+8Y=
+
+Name: lib/groovy-all-2.4.17-sources.jar
+SHA-256-Digest: MkyTxN1fYmmP9GYJXRXjkK2Y4A6Oo2NFTU1UwJGiHs8=
+
+Name: plugin_dsld_support/dsld/swing_builder.dsld
+SHA-256-Digest: GfinViemrRuHIrIgY+69vYOBF05pLMuI8zjf5WjbbG8=
+
+Name: META-INF/maven/org.codehaus.groovy.eclipse/org.codehaus.groovy/p
+ om.xml
+SHA-256-Digest: hTp11mxf2amAG8MKGh/79l1ZmHPt4n+BcEd1FsfwIO4=
+
+Name: about_files/asl2-license.txt
+SHA-256-Digest: +9GXC+NiB/+v1ofKpOqxSs/rVJsz1f0MJnDZNxw0wXE=
+
+Name: META-INF/eclipse.inf
+SHA-256-Digest: b/dR+z3/imc3LtHUqPc3A5Wa9rNBDpXQTgdA0HXVKEs=
+
+Name: plugin_dsld_support/dsld/script_config.dsld
+SHA-256-Digest: CQmml0LZJI+IlEpo5uz7TumLvtkJdK+SC7jSILu28bU=
+
+Name: plugin_dsld_support/dsld/basic_transforms.dsld
+SHA-256-Digest: s3DwHku6wuv7zts4EtOC15juXG5Vt+lDScd94AlyhxE=
+
+Name: about_files/jline2-license.txt
+SHA-256-Digest: SnrvaM/X22fmUx4zFl4QRHXTj/Y+Jf6gN33wKo0WhNQ=
+
+Name: lib/ivy-2.4.0-javadoc.jar
+SHA-256-Digest: ByrKXRa4fnj0HYp+nPBViDNrkok8kgSTr3dQImR54Y4=
+
+Name: plugin_dsld_support/dsld/meta_script.dsld
+SHA-256-Digest: sARVGL3e0TAlxPfDpYkp+shP0yptQG41KyO1eq4Z3N4=
+
+Name: VERSION
+SHA-256-Digest: jhfDTMBCCVkbKRr7efJ/63cQ+Z+L5KKId3Oprvd0xvE=
+
+Name: lib/groovy-all-2.4.17-javadoc.jar
+SHA-256-Digest: t8m15NHiLRL6dVM2cLDvX1DBDxbOJFFkMrOWOTcUikM=
+
+Name: lib/ivy-2.4.0.jar
+SHA-256-Digest: Gl0MJnn2oQgG/v9mm/OBTQNcmGyPe0xOvhO7SGBPORE=
+
+Name: META-INF/maven/org.codehaus.groovy.eclipse/org.codehaus.groovy/p
+ om.properties
+SHA-256-Digest: m03vUc+wx1pwforxjlElagXM8wX5Y3zo2RYhJRejCfs=
+
+Name: lib/ivy-2.4.0-sources.jar
+SHA-256-Digest: Qu2ZYOZFK1tjFrk/cZOkaa/DKsw1GcrT9X+Nhg9Jh+o=
+
+Name: eclipse-trace.jar
+SHA-256-Digest: BZzxnbvZWpjaMDDriKRPMtDXKOOmJ071x5DTyKtFGt0=
+

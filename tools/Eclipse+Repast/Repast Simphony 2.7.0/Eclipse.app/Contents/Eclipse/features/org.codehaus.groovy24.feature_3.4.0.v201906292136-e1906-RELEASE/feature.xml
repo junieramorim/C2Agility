@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<feature id="org.codehaus.groovy24.feature"
+      label="%featureName"
+      version="3.4.0.v201906292136-e1906-RELEASE"
+      provider-name="%providerName"
+      plugin="org.codehaus.groovy.eclipse">
+
+   <description url="%descriptionURL">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.codehaus.groovy"
+         download-size="19247"
+         install-size="20739"
+         version="2.4.17.v201906292136-e1906-RELEASE"
+   />
+
+   <plugin
+         id="org.codehaus.groovy.eclipse"
+         download-size="16"
+         install-size="18"
+         version="3.4.0.v201906292136-e1906-RELEASE"
+         unpack="false"
+   />
+
+</feature>

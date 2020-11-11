@@ -1,0 +1,150 @@
+group userOTPLclasses;
+
+userObserver(packageName,bodyCode) ::= <<
+package <packageName>.relogo
+
+import static repast.simphony.relogo.Utility.*;
+import static repast.simphony.relogo.UtilityG.*;
+import repast.simphony.relogo.Stop;
+import repast.simphony.relogo.Utility;
+import repast.simphony.relogo.UtilityG;
+import repast.simphony.relogo.schedule.Go;
+import repast.simphony.relogo.schedule.Setup;
+import <packageName>.ReLogoObserver;
+
+class UserObserver extends ReLogoObserver{
+
+	/**
+	 * Add observer methods here. For example:
+
+		@Setup
+		def setup(){
+			clearAll()
+			createTurtles(10){
+				forward(random(10))
+			}
+		}
+		
+	 *
+	 * or
+	 * 	
+	
+		@Go
+		def go(){
+			ask(turtles()){
+				left(random(90))
+				right(random(90))
+				forward(random(10))
+			}
+		}
+
+	 */
+
+	<bodyCode>
+}
+>>
+
+userTurtle(packageName,turtleVars,bodyCode) ::= <<
+package <packageName>.relogo
+
+import static repast.simphony.relogo.Utility.*;
+import static repast.simphony.relogo.UtilityG.*;
+import repast.simphony.relogo.Plural;
+import repast.simphony.relogo.Stop;
+import repast.simphony.relogo.Utility;
+import repast.simphony.relogo.UtilityG;
+import repast.simphony.relogo.schedule.Go;
+import repast.simphony.relogo.schedule.Setup;
+import <packageName>.ReLogoTurtle;
+
+class UserTurtle extends ReLogoTurtle{
+
+	<turtleVars>
+	<bodyCode>
+}
+>>
+
+customTurtle(packageName,pluralAnnotation,turtleClassName,turtleVars) ::= <<
+package <packageName>.relogo
+
+import static repast.simphony.relogo.Utility.*;
+import static repast.simphony.relogo.UtilityG.*;
+import repast.simphony.relogo.Plural;
+import repast.simphony.relogo.Stop;
+import repast.simphony.relogo.Utility;
+import repast.simphony.relogo.UtilityG;
+import repast.simphony.relogo.schedule.Go;
+import repast.simphony.relogo.schedule.Setup;
+
+
+<pluralAnnotation>
+class <turtleClassName> extends UserTurtle{
+	
+	<turtleVars>
+}
+>>
+
+userPatch(packageName,patchVars,bodyCode) ::= <<
+package <packageName>.relogo
+
+import static repast.simphony.relogo.Utility.*;
+import static repast.simphony.relogo.UtilityG.*;
+import repast.simphony.relogo.Stop;
+import repast.simphony.relogo.Utility;
+import repast.simphony.relogo.UtilityG;
+import repast.simphony.relogo.ast.Diffusible;
+import repast.simphony.relogo.schedule.Go;
+import repast.simphony.relogo.schedule.Setup;
+import <packageName>.ReLogoPatch;
+
+class UserPatch extends ReLogoPatch{
+
+	<patchVars>
+	<bodyCode>
+}
+>>
+
+userLink(packageName,linkVars,bodyCode) ::= <<
+package <packageName>.relogo
+
+import static repast.simphony.relogo.Utility.*;
+import static repast.simphony.relogo.UtilityG.*;
+import repast.simphony.relogo.Directed;
+import repast.simphony.relogo.Plural;
+import repast.simphony.relogo.Stop;
+import repast.simphony.relogo.Undirected;
+import repast.simphony.relogo.Utility;
+import repast.simphony.relogo.UtilityG;
+import repast.simphony.relogo.schedule.Go;
+import repast.simphony.relogo.schedule.Setup;
+import <packageName>.ReLogoLink;
+
+class UserLink extends ReLogoLink	{
+
+	<linkVars>
+	<bodyCode>
+}
+>>
+
+customLink(packageName,linkClassName,directedAnnotation,pluralAnnotation,linkVars) ::= <<
+package <packageName>.relogo
+
+import static repast.simphony.relogo.Utility.*;
+import static repast.simphony.relogo.UtilityG.*;
+import repast.simphony.relogo.Directed;
+import repast.simphony.relogo.Plural;
+import repast.simphony.relogo.Stop;
+import repast.simphony.relogo.Undirected;
+import repast.simphony.relogo.Utility;
+import repast.simphony.relogo.UtilityG;
+import repast.simphony.relogo.schedule.Go;
+import repast.simphony.relogo.schedule.Setup;
+import <packageName>.ReLogoLink;
+
+<directedAnnotation>
+<pluralAnnotation>
+class <linkClassName> extends ReLogoLink	{
+
+	<linkVars>
+}
+>>

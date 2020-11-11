@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast data
+Bundle-SymbolicName: repast.simphony.data
+Bundle-Version: 2.7.0
+Bundle-ClassPath: bin/
+Export-Package: repast.simphony.data2,
+ repast.simphony.data2.builder,
+ repast.simphony.data2.engine,
+ repast.simphony.data2.util
+Require-Bundle: repast.simphony.core,
+ repast.simphony.scenario,
+ repast.simphony.runtime,
+ org.junit
+Bundle-Vendor: Argonne National Laboratory
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8

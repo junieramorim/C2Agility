@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast relogo builder
+Bundle-SymbolicName: repast.simphony.relogo.builder;singleton:=true
+Bundle-Version: 2.7.0
+Bundle-Activator: repast.simphony.relogo.builder.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ repast.simphony.eclipse,
+ repast.simphony.core,
+ org.codehaus.groovy,
+ org.junit,
+ org.eclipse.jdt.launching,
+ org.eclipse.core.resources,
+ repast.simphony.groovy;bundle-version="2.7.0"
+Bundle-ActivationPolicy: lazy
+Import-Package: org.codehaus.jdt.groovy.model,
+ org.eclipse.core.resources,
+ org.eclipse.jdt.core,
+ org.eclipse.jdt.internal.corext.util,
+ org.eclipse.swt.widgets,
+ org.eclipse.ui.ide,
+ repast.simphony.util.collections
+Bundle-ClassPath: lib/ST-4.0.7.jar,
+ .,
+ bin/
+Export-Package: repast.simphony.relogo.ide.handlers,
+ templates
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Argonne National Laboratory

@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast libs piccolo
+Bundle-SymbolicName: libs.piccolo
+Bundle-Version: 2.7.0
+Bundle-ClassPath: lib/piccolo2d-core-3.0.jar,
+ lib/piccolo2d-extras-3.0.jar
+Export-Package: org.piccolo2d,
+ org.piccolo2d.activities,
+ org.piccolo2d.event,
+ org.piccolo2d.extras,
+ org.piccolo2d.extras.activities,
+ org.piccolo2d.extras.event,
+ org.piccolo2d.extras.handles,
+ org.piccolo2d.extras.nodes,
+ org.piccolo2d.extras.pswing,
+ org.piccolo2d.extras.swing,
+ org.piccolo2d.extras.util,
+ org.piccolo2d.nodes,
+ org.piccolo2d.util
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Argonne National Laboratory

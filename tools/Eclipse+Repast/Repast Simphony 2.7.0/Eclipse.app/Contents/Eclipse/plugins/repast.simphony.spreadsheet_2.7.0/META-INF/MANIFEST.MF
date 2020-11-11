@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast spreadsheet
+Bundle-SymbolicName: repast.simphony.spreadsheet
+Bundle-Version: 2.7.0
+Require-Bundle: repast.simphony.gui,
+ repast.simphony.data,
+ repast.simphony.core,
+ saf.core.ui,
+ repast.simphony.runtime,
+ repast.simphony.plugin.util,
+ repast.simphony.data.ui
+Bundle-Vendor: Argonne National Laboratory
+Export-Package: repast.simphony.spreadsheet
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8

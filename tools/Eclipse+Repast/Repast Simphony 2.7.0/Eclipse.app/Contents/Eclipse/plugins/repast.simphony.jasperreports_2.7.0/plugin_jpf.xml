@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE plugin PUBLIC "-//JPF//Java Plug-in Manifest 0.6" "http://jpf.sourceforge.net/plugin_0_6.dtd">
+<plugin id="repast.simphony.jasperreports" version="">
+	
+	<attributes>
+         <attribute id="simphony" value="2.7.0"/>
+     </attributes>
+
+	<requires>
+		<import exported="false" match="compatible" optional="false" plugin-id="saf.core.runtime" reverse-lookup="false"/>
+		<import exported="false" match="compatible" optional="false" plugin-id="saf.core.ui" reverse-lookup="false"/>
+		<import exported="false" match="compatible" optional="false" plugin-id="repast.simphony.data" reverse-lookup="true"/>
+	</requires>
+
+	<runtime>
+		<library id="rsjasperreports" path="bin/" type="code">
+			<export prefix="*"/>
+		</library>
+		<library id="jasperreports" path="lib/jasperreports-5.1.0.jar" type="code">
+			<export prefix="*"/>
+		</library>
+		
+		<!-- Note that Jasper Reports has specific runtime requirements on these libraries. -->
+		
+		<library id="commons-beanutils" path="lib/commons-beanutils-1.8.0.jar" type="code">
+			<export prefix="*"/>
+		</library>
+		
+		<library id="commons-digester" path="lib/commons-digester-2.1.jar" type="code">
+			<export prefix="*"/>
+		</library>
+		
+		<library id="iText" path="lib/iText-2.1.7.js2.jar" type="code">
+			<export prefix="*"/>
+		</library>
+		
+	</runtime>
+
+</plugin>

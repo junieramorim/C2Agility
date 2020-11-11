@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Repast relogo runtime
+Bundle-SymbolicName: repast.simphony.relogo.runtime
+Bundle-Version: 2.7.0
+Export-Package: repast.simphony.relogo,
+ repast.simphony.relogo.factories,
+ repast.simphony.relogo.image,
+ repast.simphony.relogo.styles,
+ repast.simphony.relogo.util
+Require-Bundle: repast.simphony.visualization,
+ repast.simphony.core,
+ libs.bsf,
+ libs.piccolo,
+ repast.simphony.userpanel.ui,
+ repast.simphony.runtime,
+ repast.simphony.essentials,
+ repast.simphony.gui,
+ repast.simphony.scenario,
+ repast.simphony.integration,
+ saf.core.ui,
+ repast.simphony.data,
+ org.apache.ant,
+ repast.simphony.statecharts,
+ libs.ext,
+ repast.simphony.groovy
+Bundle-ClassPath: lib/asm-3.2.jar,
+ bin/
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Argonne National Laboratory

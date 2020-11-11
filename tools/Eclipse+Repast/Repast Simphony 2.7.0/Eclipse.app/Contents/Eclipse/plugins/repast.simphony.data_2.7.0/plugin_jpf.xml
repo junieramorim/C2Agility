@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE plugin PUBLIC "-//JPF//Java Plug-in Manifest 0.6" "http://jpf.sourceforge.net/plugin_0_6.dtd">
+<plugin id="repast.simphony.data" version="">
+	<attributes>
+         <attribute id="simphony" value="2.7.0"/>
+     </attributes>
+
+	<requires>
+		<import exported="false" match="compatible" optional="false" plugin-id="repast.simphony.core" reverse-lookup="true"/>
+	</requires>
+
+	<runtime>
+		<library id="data.bin" path="bin/" type="code">
+			<export prefix="*"/>
+	  </library>
+	</runtime>
+
+	<extension id="data.composite.action" plugin-id="repast.simphony.core" point-id="composite.action">
+		<parameter id="creatorClass" value="repast.simphony.data2.engine.DataSetsActionCreator"/>
+	</extension>
+	
+	<extension id="data.init.composite.action" plugin-id="repast.simphony.core" point-id="composite.action">
+        <parameter id="creatorClass" value="repast.simphony.data2.engine.DataInitActionCreator"/>
+    </extension>
+
+	<extension id="data.component.action" plugin-id="repast.simphony.core" point-id="component.action">
+		<parameter id="actionIO" value="repast.simphony.data2.engine.DataSetControllerActionIO"/>
+		<!-- this value is from core repast.plugins.ControllerActionConstants -->
+		<parameter id="parentID" value="repast.controller.action.data_sets"/>
+	</extension>
+
+	<extension id="outputter.composite.action" plugin-id="repast.simphony.core" point-id="composite.action">
+		<parameter id="creatorClass" value="repast.simphony.data2.engine.TextSinkActionCreator"/>
+	</extension>
+
+	<extension id="outputter.component.action" plugin-id="repast.simphony.core" point-id="component.action">
+		<parameter id="actionIO" value="repast.simphony.data2.engine.FileSinkControllerActionIO"/>
+		<!-- this value is from core repast.plugins.ControllerActionConstants -->
+		<parameter id="parentID" value="repast.controller.action.outputters"/>
+	</extension>
+	
+	<extension id="console.component.action" plugin-id="repast.simphony.core" point-id="component.action">
+        <parameter id="actionIO" value="repast.simphony.data2.engine.ConsoleSinkControllerActionIO"/>
+        <!-- this value is from core repast.plugins.ControllerActionConstants -->
+        <parameter id="parentID" value="repast.controller.action.outputters"/>
+    </extension>
+</plugin>
