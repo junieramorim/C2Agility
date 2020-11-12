@@ -1,4 +1,4 @@
- << UNDER CONSTRUCTION >> 
+> UNDER CONSTRUCTION
 
 # C2 Agility 
 
