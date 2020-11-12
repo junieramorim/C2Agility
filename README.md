@@ -1,5 +1,12 @@
 %% UNDER CONSTRUCTION %%
 
+The aiming of this project is to provide all material used to execute the empirical evaluation of C2 Agility in software-based environment.
+
+More detailed instructions can be found in WIKI session (click Wiki tab above).
+
+
+
+
 1. Environment
 
 The framework (RePast Simphony) used to implement the simulation:
@@ -26,7 +33,6 @@ Results were processed using R scripts.
 
 
 
-The aiming of this project is to provide all material used to execute the empirical evaluation presented by the paper.
 
-More detailed instructions can be found in WIKI session (click Wiki tab above).
+
 
