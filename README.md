@@ -5,11 +5,4 @@ The aiming of this project is to provide all material used to execute the empiri
 More detailed instructions can be found in WIKI session. Just click the button bellow!
 
 
-[![button](icon.jpg)](https://github.com/junieramorim/C2Agility/wiki)
-
-
-
-
-
-
-
+:[![button](icon.jpg)](https://github.com/junieramorim/C2Agility/wiki):
