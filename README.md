@@ -7,7 +7,7 @@ More detailed instructions can be found in WIKI session. Just click the button b
 
 [![button](icon.jpg)](https://github.com/junieramorim/C2Agility/wiki)
 
-
+<button class="btn btn-primary" type="button">Primary button</button>
 
 
 
