@@ -40,3 +40,9 @@ Changed the way drones get next drones to communicate (getNextActiveDrones metho
 ## Kappa Phase (Version 10) - 12/03/2020
 
 It was reduced the size and complexity of the Token. Hence, token's functionalities was re-distribuited to the Drone's class and TaskAllocator's class. The reallocation process is now occuring inside the Drone's class (verifying first that the Drone possess the TaskAllocator role). The method getNextActiveDrones was removed and all the intelligence was moved to the sendToken method. This method is now overloaded with the current C2 Approach as the key information. Removing dropped drones is now an agent responsability. In the deconflicted approach isn't possible to occur different teams, because this feature would interfer to future implementation of manuver operation. More over, this was a refactor phase.
+
+## Lambda Phase (Version 11) - 18/08/2020
+
+Xxxxxxxx
+
+
