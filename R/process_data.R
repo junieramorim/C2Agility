@@ -8,7 +8,7 @@ scenarios <- c(1,2,3,4,5,6,7,8,9,10)
 NoS <- length(scenarios)
 path <- '/Users/junier/git/PIBIC-C2/Results/'
 process <- TRUE # Remove outliers (greater than 2*standard deviation)
-metrics <- c(1,2,3,5,6) #It was added metric 6 - REWARD
+metrics <- c(1,2,3,4,6) #It was added metric 6 - REWARD; metric 5 is RESILIENCE
 #specify_decimal <- function(x, k) trimws(format(round(x, k), nsmall=k)) #function used to format the numbers in results
 for(j in metrics){
   #means <- matrix(nrow=NoS, ncol=3, dimnames = list(c(seq(NoS)), c("A1","A2","A3")))

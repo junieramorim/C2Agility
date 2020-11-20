@@ -7,7 +7,7 @@ scenarios <- c(1,2,3,4,5,6,7,8,9,10)
 #scenarios <- c(1) #Number of Scenarios to be interact. It is the same number of folders in Eclipse Workspace
 NoS <- length(scenarios)
 path <- '/Users/junier/git/PIBIC-C2/Results/'
-metrics <- c(1,2,3,5,6) #It was added metric 6 - REWARD
+metrics <- c(1,2,3,4,6) #It was added metric 6 - REWARD
 #specify_decimal <- function(x, k) trimws(format(round(x, k), nsmall=k)) #function used to format the numbers in results
 for(j in metrics){
   for(i in scenarios){

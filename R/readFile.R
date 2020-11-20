@@ -2,7 +2,7 @@
 scenarios <- c(1,2) #Number of Scenarios to be interact. It is the same number of folders in Eclipse Workspace
 NoS <- length(scenarios)
 path <- '/Users/junier/git/PIBIC-C2/'
-metrics <- c(1,2,3,5)
+metrics <- c(1,2,3,4)
 means <- matrix(nrow=NoS, ncol=3, dimnames = list(c(seq(NoS)), c("A1","A2","A3")))
 sd <- matrix(nrow=NoS, ncol=3, dimnames = list(c(seq(NoS)), c("A1","A2","A3")))
 #specify_decimal <- function(x, k) trimws(format(round(x, k), nsmall=k)) #function used to format the numbers in results
