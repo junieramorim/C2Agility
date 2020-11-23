@@ -1,6 +1,6 @@
 # C2 Agility
 
-The aiming of this repository is to provide all material used to execute the empirical evaluation of the C2 Agility in software-based environment using the proposed model based in Channel Systems.
+The aiming of this repository is to provide all material used to execute the empirical evaluation of the C2 Agility in a software-based environment using the proposed model based in Channel Systems.
 
 ## Repository Organization
 
@@ -12,6 +12,6 @@ The aiming of this repository is to provide all material used to execute the emp
 
 ## Instructions
 
-More detailed instructions can be found in WIKI session. Just click the button bellow!
+More detailed instructions and information can be found in WIKI session. Just click the button bellow!
 
 [![button](icon.jpg)](https://github.com/junieramorim/C2Agility/wiki)
