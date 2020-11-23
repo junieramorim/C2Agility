@@ -43,6 +43,6 @@ It was reduced the size and complexity of the Token. Hence, token's functionalit
 
 ## Lambda Phase (Version 11) - 18/08/2020
 
-Xxxxxxxx
+The necessary strcture to run in batch mode was created. The C2 Approach selection made by the C2AM role was updated to follow the maturity stages of C2 Approach Space having Conflicted one as the final stage. The tasks allocation process was updated to guarantee a correct and suitable C2 Approach change in case of free tasks in line and available resources to perform them. Adjustments to generate compatible output files to be analysed by R scripts.
 
 
