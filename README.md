@@ -1,6 +1,6 @@
 # C2 Agility
 
-The aiming of this project is to provide all material used to execute the empirical evaluation of C2 Agility in software-based environment.
+The aiming of this repository is to provide all material used to execute the empirical evaluation of the C2 Agility in software-based environment using the proposed model based in Channel Systems.
 
 ## Repository Organization
 
