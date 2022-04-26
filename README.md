@@ -9,7 +9,7 @@ The aiming of this repository is to provide all material used to execute the emp
 - [Diagrams](https://github.com/junieramorim/C2Agility/tree/main/diagrams) - In this directory, all models representations based on the implementation are available;
 - [Results](https://github.com/junieramorim/C2Agility/tree/main/results) - In this directory, we present all the obtained results described in the paperwork;
 - [Repast](https://github.com/junieramorim/C2Agility/tree/main/tools/Eclipse%2BRepast) - In this directory, we provide _Repast_ related tools, due to problems following the original instruction material ([Documentation](https://repast.github.io/)) to a different range of plataforms, such as Mac and Linux;
-- [Videos](https://github.com/junieramorim/C2Agility/videos) - Videos showing a batch running file and one single execution, both using RePast interface.
+- [Videos](https://github.com/junieramorim/C2Agility/tree/main/videos) - Videos showing a batch running file and one single execution, both using RePast interface.
 
 
 ## Instructions
